@@ -3,26 +3,26 @@
 SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
 ------------------------------------------*/
 .bg-primary {
-  background-color: #ff401c !important; }
+  background-color: #3da2bb !important; }
 
 .text-primary {
-  color: #ff401c !important; }
+  color: #3da2bb !important; }
 
 .btn-primary {
-  background-color: #ff401c !important;
-  border-color: #b51d00 !important; }
+  background-color: #107acc !important;
+  border-color: #142157 !important; }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #e82500 !important; }
+  background-color: #2898ee !important; }
 
 .btn-primary:active {
-  background-color: #b51d00 !important;
-  border-color: #821500 !important; }
+  background-color: #2898ee !important;
+  border-color: #2898ee !important; }
 
 .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important;
-          box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.5) !important; }
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(28, 160, 255, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(28, 160, 255, 0.5) !important; }
 
 /*--------------------------
 ESTILOS DEL DISEÑO

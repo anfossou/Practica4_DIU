@@ -4,7 +4,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="https://static.thenounproject.com/png/2574406-200.png">
   <!-- FUENTES DE GOOGLE FONT -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
   <!-- ARCHIVOS CSS BOOTSTRAP 4 -->
@@ -12,7 +12,7 @@
 
   <!-- ARCHIVOS CSS PERSONALIZADOS -->
   <link type="text/css" rel="stylesheet" href="css/estilos.css">
-  <title>Blog personal de Tomas Mendez</title>
+  <title>Frameworks de Desarrollo Front</title>
 </head>
 <body>
 
@@ -32,8 +32,8 @@
     <div class="collapse navbar-collapse" id="menu-principal">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a href="#" class="nav-link active">Inicio</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">¿Quien soy?</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Proyectos</a></li>
+        <li class="nav-item"><a href="#frameworks" class="nav-link">Frameworks más utilizados</a></li>
+        <li class="nav-item"><a href="#contacta" class="nav-link">Contacta</a></li>
       </ul>
     </div>
   </div>
@@ -52,8 +52,10 @@
         <p>Un framework es un marco o esquema de trabajo generalmente utilizado por programadores
           para realizar el desarrollo de software. Utilizar un framework permite agilizar los
           procesos de desarrollo ya que evita tener que escribir código de forma repetitiva,
-          asegura unas buenas prácticas y la consistencia del código.</p>
-        <a href="https://es.wikipedia.org/wiki/Framework" class="btn btn-primary btn-lg">Leer más</a> 
+          asegura unas buenas prácticas y la consistencia del código.</p> 
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalMasInfo">
+            Mas información
+          </button>
       </div>
     </div>
   </div>
@@ -66,19 +68,18 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <img src="images/avatar.png" width="260" height="auto" alt="Avatar de Tomas Mendez" class="img-fluid rounded-circle mb-4">
-        <p class="h2">Gracias a los marcos, los desarrolladores no tienen que comenzar proyectos desde cero, 
+        <img src="https://static.thenounproject.com/png/2574406-200.png" width="260" height="auto" alt="Framework" class="img-fluid rounded-circle mb-4">
+        <p class="h4 font-italic">Gracias a los marcos, los desarrolladores no tienen que comenzar proyectos desde cero, 
           sino que tienen una base sólida sobre la cual construir otras características específicas del proyecto. 
           Esto le permite aumentar la eficiencia y la confiabilidad de sus soluciones al mismo tiempo que acelera 
           el proceso de desarrollo.</p>
-        <p class="h4 font-italic">- Tomas Mendez</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- SECCION PROYECTOS -->
-<section class="proyectos py-4">
+<section class="proyectos py-4" id="frameworks">
     <div class="container">
         <h1 class="display-4 font-weight-bold text-center pb-4">Frameworks más utilizados</h1>
         <div class="row text-md-center">
@@ -170,108 +171,107 @@
             </article>
             <article class="col-12 col-md-6 col-lg-3   mb-3 mb-lg-0">
                 <div class="card">
-                    <img class="card-img-top h-100" src="images/Laravel.png" alt="Laravel">
+                    <img class="card-img-top h-100" src="images/stimulus_logo.png" alt="stimulus">
                     <div class="card-body">
-                        <h5 class="card-title">Laravel</h5>
+                        <h5 class="card-title">Stimulus</h5>
                         <p class="card-text">
-                            Es un framework de código abierto para desarrollar aplicaciones y servicios web 
-                            con PHP 5, PHP 7 y PHP 8.
+                            Está diseñado para aumentar su HTML con el comportamiento suficiente para hacerlo brillar. Stimulus 
+                            se combina con Turbo para proporcionar una solución completa para aplicaciones rápidas 
+                            y con un mínimo de esfuerzo.
                         </p>
-                        <a href="https://es.wikipedia.org/wiki/Laravel" class="btn btn-primary">Aprende más</a>
+                        <a href="https://stimulus.hotwired.dev/" class="btn btn-primary">Aprende más</a>
                     </div>
                 </div>
             </article>
             <article class="col-12 col-md-6 col-lg-3   mb-3 mb-lg-0">
                 <div class="card">
-                    <img class="card-img-top h-100" src="images/Symfony.png" alt="Symfony">
+                    <img class="card-img-top h-100" src="https://raw.githubusercontent.com/emberjs/website/master/source/images/brand/ember_Ember-Light.png" alt="Ember">
                     <div class="card-body">
-                        <h5 class="card-title">Symfony</h5>
+                        <h5 class="card-title">Ember.js</h5>
                         <p class="card-text">
-                            Es un framework diseñado para desarrollar aplicaciones web basado en el patrón
-                            Modelo Vista Controlador.
+                            Ember.js es un marco web JavaScript de código abierto que utiliza un patrón de servicio de componentes.
                         </p>
-                        <a href="https://es.wikipedia.org/wiki/Symfony" class="btn btn-primary">Aprende más</a>
+                        <a href="" class="btn btn-primary">Aprende más</a>
                     </div>
                 </div>
             </article>
+            
         </div>
     </div>
 </section>
 
     <!-- SECCION PIE DE PÁGINA -->
-    <footer class="pie-de-pagina text-center text-md-right bg-dark text-white">
-        <div class="container">
-            <p class="m-0 py-3">Copyright © 2023. Todos los derechos reservados. </p>
+    <footer class="pie-de-pagina  bg-dark text-white">
+        <div class="row">
+            <div class="col-md-6 m-0 py-3">
+                <div class="container">
+                <h3>Sobre mi</h3>
+                <img class="rounded img-fluid" src="https://fotografias.antena3.com/clipping/cmsimages02/2022/08/25/B661900F-DEE7-4105-A96E-719BA1780FE2/programador_98.jpg" width="500" alt="Programador">
+                <p class="mb-0">Ana Fossoul Valerio <br> -Desarrollo de interfaces para el Usuario
+                </p>
+            </div>
+            </div>
+            <div class="col-md-6 m-0 py-3" id="contacta">
+                <div class="container">
+                <h3>Contacta conmigo si tienes alguna duda</h3>
+                <form>
+                    <div class="form-group">
+                      <label for="inputPrimero">Nombre</label>
+                      <input type="text" class="form-control" id="inputPrimero" placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                      <label for="imputSegundo">Tu correo</label>
+                      <input type="email" class="form-control" id="imputSegundo" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="imputTercero">Tu pregunta</label>
+                        <input type="text" class="form-control" id="imputTercero" placeholder="Tu pregunta">
+                      </div>
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+                </div>
+            </div>
         </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- BOTÓN MÁS INFORMACIÓN -->
+<div class="modal" id="modalMasInfo" tabindex="-1" role="dialog" aria-labelledby="modalMasInfoLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalMasInfoLabel">Mas información</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Los marcos de trabajo tienen como objetivo principal ofrecer una funcionalidad definida,
+             auto contenida, siendo construidos usando patrones de diseño, y su característica principal
+              es su alta cohesión y bajo acoplamiento.
+          </p>
+          <p>
+            Para acceder a esa funcionalidad, se construyen piezas, objetos, llamados objetos calientes,
+             que vinculan las necesidades del sistema con la funcionalidad que este presta.
+          </p>
+          <p>
+            Esta funcionalidad, está constituida por objetos llamados fríos, que sufren poco o ningún cambio
+             en la vida del framework, permitiendo la portabilidad entre distintos sistemas.
+            </p>
+            <p>              
+            Algunos entornos de trabajo conocidos son Spring Framework o Hibernate, donde lo esencial para 
+            ser denominados entornos de trabajo es estar constituidos por objetos casi estáticos con 
+            funcionalidad definida a nivel grupo de objetos y no como parte constitutiva de estos,
+             por ejemplo en sus métodos, en cuyo caso se habla de una API o librería.
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
     <!-- ARCHIVOS BOOTSTRAP JAVASCRIPT -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
